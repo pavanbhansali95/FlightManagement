@@ -22,6 +22,10 @@ export const getAllFlights = ()  => dispatch => {
     })
 }
 export const storeSelectedFlightDetails = data => dispatch => {
+<<<<<<< HEAD
+=======
+    console.log('flight action-----', data);
+>>>>>>> 2f548f676e32d1e0ddf9a717d760c8c4a4aefd6c
     dispatch({type: FLIGHT_ACTIONS.GETSELECTEDFLIGHT, payload: data});
 }
 export const storeSelectedPassengerDetails = data => dispatch => {
@@ -48,12 +52,15 @@ export const getFlightPassengers = id => dispatch => {
         console.log('error');
     })
 }
+<<<<<<< HEAD
 export const passengerForm = data => dispatch => {
     dispatch({
         type: 'PASSENGER_FORM',
         payload: data
     })
 }
+=======
+>>>>>>> 2f548f676e32d1e0ddf9a717d760c8c4a4aefd6c
 export const getFlightSeatDetails = id => dispatch => {
     const url = 'http://localhost:3001/seats';
     axios.get(url).then((res) => {
