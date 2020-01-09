@@ -1,0 +1,55 @@
+{
+  "name": "flightmanagement",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@devexpress/dx-react-chart": "^2.3.1",
+    "@devexpress/dx-react-chart-material-ui": "^2.3.1",
+    "@devexpress/dx-react-core": "^2.3.1",
+    "@material-ui/core": "^4.4.2",
+    "@material-ui/icons": "^4.4.3",
+    "@material-ui/lab": "^4.0.0-alpha.32",
+    "autosuggest-highlight": "^3.1.1",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "gapi-script": "0.0.5",
+    "json-server": "^0.15.1",
+    "material-table": "^1.51.0",
+    "node-sass": "^4.13.0",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.15",
+    "react-dom": "^16.9.0",
+    "react-reactive-form": "^1.0.32",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "redux": "^4.0.4",
+    "redux-form": "^8.2.6",
+    "redux-thunk": "^2.3.0",
+    "tslint": "^5.20.1",
+    "tslint-react": "^4.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --coverage",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
